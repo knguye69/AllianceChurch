@@ -28,12 +28,6 @@ p{
 
 
 
-
-
-
-
-
-
 /* Navigation bar */
 /*************Drop down nav***************/
 .nav{
@@ -483,9 +477,13 @@ nav{
     padding: 5%;
 }
 
-.biography,.hour,.contact p{
+.biography p,.hour p,.contact p{
     font-style: oblique;
     font-size: x-large;
+}
+
+.biography h2, .hour h2, .contact h2{
+    font-size: xx-large;
 }
 
 #contact-form .input-form,button{

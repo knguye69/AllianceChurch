@@ -1,0 +1,15 @@
+.info a {
+    text-decoration: none;
+    color: black;
+}
+i:hover, i:focus{
+    color: blue;
+    cursor: pointer;
+}
+.text-content{
+    display: none;
+}
+.text-content.open{
+    display: block;
+
+}
