@@ -13,6 +13,7 @@
 
     <script src="jquery-3.4.1.js"></script>
     <script src="dropDownInfo.js"></script>
+    <script src="validation.js"></script>
 
 </head>
 
@@ -111,13 +112,13 @@
                         <div class="input-form">
                             <label for="name"></label>
                             <i class="fa fa-user icon"></i>
-                            <input type="text" id="name" name="name" placeholder="Full Name">
+                            <input type="text" id="name" name="name" placeholder="Full Name" required><span>*</span>
                         </div>
 
                         <div class="input-form">
                             <label for="email"></label><br>
                             <i class="fa fa-envelope icon"></i>
-                            <input type="email" id="email" name="email" placeholder="loveGod@gmail.com">
+                            <input type="email" id="email" name="email" placeholder="loveGod@gmail.com" required><span>*</span>
                         </div>
 
                         <div class="input-form">
@@ -129,7 +130,7 @@
                         <div class="input-form">
                             <label for="message"></label>
                             <i id="comment-icon" class="fa fa-comments-o"></i>
-                            <textarea  id="message" name="message" placeholder="Message"></textarea>
+                            <textarea  id="message" name="message" placeholder="Message" required></textarea><span>*</span>
                         </div>
                         <button type="submit" class="btn">Send</button>
                     </fieldset>
