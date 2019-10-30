@@ -387,18 +387,16 @@ nav{
     width:228px;
     float: right;
 
+    margin-right: 5%;
 }
 .gmap_canvas {
     overflow:hidden;
     background:none!important;
     height:208px;
     width:228px;
+
 }
-.gmap_canvas{
-    width: 228px;
-    height:208px;
-    border: 0;
-}
+
 
 
 
