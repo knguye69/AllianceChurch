@@ -28,6 +28,7 @@ p{
 
 
 
+
 /* Navigation bar */
 /*************Drop down nav***************/
 .nav{
@@ -336,6 +337,11 @@ nav{
     font-size: .7em;
 
     background-color: #F9FBF3;
+}
+
+.visit_us{
+
+    padding-left: 2%;
 }
 
 /* Wrapper */
@@ -689,6 +695,7 @@ legend{
         font-size: medium;
 
     }
+
 
 
 
