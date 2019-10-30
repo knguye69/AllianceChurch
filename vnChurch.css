@@ -444,6 +444,11 @@ nav{
     color: #004D34;
 }
 
+legend{
+    font-size: 30px;
+    color: #3CA1D2;
+}
+
 /* Set a style for the submit button */
 .btn {
     background-color: #004D34;
