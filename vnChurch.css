@@ -267,6 +267,13 @@ nav{
 }
 
 
+/* before-now--------*/
+.before-now{
+    max-width: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 /* Button on the wallpaper*/
@@ -611,6 +618,8 @@ legend{
     vertical-align: middle;
 
 }
+
+
 
 
 /***************Media Query*****************/
