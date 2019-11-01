@@ -1,10 +1,4 @@
 $(document).ready(function () {
- $('.before-now').twentytwenty();
-
-
-
-
-
-
-
+ //$('.before-now').twentytwenty();
+ $('.cocoen').cocoen();
 });

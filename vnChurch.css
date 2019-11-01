@@ -272,6 +272,14 @@ nav{
     margin-right: auto;
 }
 
+/* before-now 1--------*/
+.before-now-2{
+    max-width: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 /* Button on the wallpaper*/
 .button {
