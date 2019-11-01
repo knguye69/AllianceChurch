@@ -115,11 +115,11 @@
     }
 
     .spinner-master .spinner {
-        position: absolute;
+        position: relative;
         height: 8px;
         width: 100%;
         padding: 0;
-        background-color: #004d00;
+        background-color: #2f3b3f;
     }
 
     .spinner-master .diagonal.part-1 {
@@ -185,7 +185,7 @@
     }
 
     .menu > li > ul.sub-menu {
-        padding: 0px;
+        padding: 0;
         border: none;
     }
 
@@ -223,6 +223,10 @@
         padding: 10px 18px 10px 30px;
     }
 
+    .menu ul li a:hover {
+        background: #4b5f65;
+        color:#3CA1D2;
+    }
 
 
     .menu ul li.hover > a {
