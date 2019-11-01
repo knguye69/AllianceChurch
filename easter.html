@@ -10,11 +10,18 @@
     <!-- add icon link -->
     <link rel = "icon" href ="images/logo.png" type = "image/x-icon">
 
+    <script src="jquery-3.4.1.js"></script>
+
+    <!-- menu animation-->
+    <script src="Menu-animation/menu-animation.js"></script>
+    <link rel="stylesheet" href="Menu-animation/menu-animation.css">
+
 </head>
 
 <body>
 <div>
     <!--Wallpaper and navigation bar-->
+
     <div class = "easter-wallpaper">
         <div class="logo">
             <a href="index.html" class="active"><img id="logo-pic" src="images/logo1.png" alt="Alliance logo"></a>
@@ -63,6 +70,50 @@
         <div class = "button-text">
             <a href="about.html" class="button">LEARN MORE</a>
         </div>
+
+        <!-- second nav(minimize)-->
+        <div class="spinner-master">
+            <input type="checkbox" id="spinner-form" />
+            <label for="spinner-form" class="spinner-spin">
+                <div class="spinner diagonal part-1"></div>
+                <div class="spinner horizontal"></div>
+                <div class="spinner diagonal part-2"></div>
+            </label>
+        </div>
+
+        <div class="nav_wrapper">
+            <nav id="menu" class="menu">
+                <ul class="dropdown">
+                    <li ><a href="#" title="Worship">Worship</a>
+                        <ul >
+                            <li ><a href="sunday-school.html" title="Sunday School">Sunday School</a></li>
+                            <li ><a href="youth-group.html" title="Young Group">Young Group</a></li>
+                            <li ><a href="adult.html" title="Adult Group">Adult Group </a></li>
+                            <li ><a href="faith.html" title="Faith & Marriage and Fellowship">Faith & Marriage and Fellowship</a></li>
+                        </ul>
+                    </li>
+                    <li ><a href="ministry.html" title="Ministries">Ministries</a></li>
+                    <li ><a href="#" title="Event">Event</a>
+                        <ul >
+                            <li ><a href="christmas.html" title="Christmas">Christmas</a></li>
+                            <li ><a href="passion.html" title="Passion">Passion</a></li>
+                            <li ><a href="thanksgiving.html" title="Thanksgiving">Thanksgiving</a></li>
+                            <li ><a href="easter.html" title="Easter">Easter</a></li>
+                            <li ><a href="other.html" title="Other">Other</a></li>
+                        </ul>
+                    </li>
+                    <li ><a href="#" title="Gallery">Gallery</a>
+                        <ul >
+                            <li ><a href="pictures.html" title="Picture">Pictures</a></li>
+                            <li ><a href="video.html" title="Video">Videos</a></li>
+                        </ul>
+                    </li>
+                    <li ><a href="about.html" title="About">About</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- end second nav-->
+
     </div><!--End wallpaper and navigation bar-->
 
     <h2>Easter</h2>

@@ -624,7 +624,7 @@ legend{
 
 /***************Media Query*****************/
 /* Mobile Styles */
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 768px )  {
 
     .wallpaper{
         height: 250px;
@@ -653,12 +653,16 @@ legend{
     .nav{
         display: none;
     }
+    /*Disable button on wallpaper*/
+    .button-text{
+        display: none;
+    }
 
 
 }
 
 /* Tablet Styles */
-@media only screen and (min-width: 501px) and (max-width: 1200px) {
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
     .wallpaper{
         height: 500px;
         position: relative;

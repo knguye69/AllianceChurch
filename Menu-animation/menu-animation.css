@@ -1,0 +1,234 @@
+.menu-link { display: none; }
+
+.spinner-master input[type=checkbox] { display: none; }
+
+.menu {
+    width: 100%;
+    height: auto;
+    background: #2f3b3f;
+    transition: all 0.3s ease;
+}
+
+.menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    display: inline-block;
+}
+
+.menu > li > ul.sub_menu {
+    min-width: 10em;
+    padding: 4px 0;
+    background-color: #3CA1D2;
+    border: 1px solid #3CA1D2;
+}
+
+.menu ul li { padding: 0; }
+
+.menu > ul > li { display: inline-block; }
+
+.menu ul li a {
+    display: block;
+    text-decoration: none;
+    color: #3CA1D2;
+    font-size: 14px;
+}
+
+.menu ul li a:hover {
+    background: #3CA1D2;
+    color: whitesmoke;
+}
+
+.menu ul li.hover > a {
+    background: white;
+    color:#3CA1D2;
+}
+
+.menu ul li > a { padding: 15px; }
+
+.menu ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    min-width: 160px;
+    background: #39484d;
+}
+
+.menu ul li:hover > ul { display: block; }
+
+.menu ul ul > li { position: relative; }
+
+.menu ul ul > li a {
+    padding: 10px 15px;
+    height: auto;
+    background: #39484d;
+}
+
+.menu ul ul > li a:hover {
+    background: #3CA1D2;
+    color: white;
+}
+
+.menu ul ul ul {
+    position: absolute;
+    left: 100%;
+    top: 0;
+}
+
+@media all and (min-width: 768px) {
+    .nav_wrapper{
+     display: none;
+    }
+}
+@media all and (max-width: 769px) {
+
+    .spinner-master * {
+        transition: all 0.3s;
+        box-sizing: border-box;
+    }
+
+    .spinner-master {
+        position: relative;
+        margin: 15px;
+        height: 30px;
+        width: 30px;
+        float: left;
+    }
+
+    .spinner-master label {
+        cursor: pointer;
+        position: absolute;
+        z-index: 99;
+        height: 100%;
+        width: 100%;
+        top: 5px;
+        left: 0;
+    }
+
+    .spinner-master .spinner {
+        position: absolute;
+        height: 4px;
+        width: 100%;
+        padding: 0;
+        background-color: rgb(193,0,4);
+    }
+
+    .spinner-master .diagonal.part-1 {
+        position: relative;
+        float: left;
+    }
+
+    .spinner-master .horizontal {
+        position: relative;
+        float: left;
+        margin-top: 4px;
+    }
+
+    .spinner-master .diagonal.part-2 {
+        position: relative;
+        float: left;
+        margin-top: 4px;
+    }
+
+    .spinner-master input[type=checkbox]:checked ~ .spinner-spin > .horizontal { opacity: 0; }
+
+    .spinner-master input[type=checkbox]:checked ~ .spinner-spin > .diagonal.part-1 {
+        transform: rotate(135deg);
+        -webkit-transform: rotate(135deg);
+        margin-top: 10px;
+    }
+
+    .spinner-master input[type=checkbox]:checked ~ .spinner-spin > .diagonal.part-2 {
+        transform: rotate(-135deg);
+        -webkit-transform: rotate(-135deg);
+        margin-top: -12px;
+    }
+
+    a.menu-link {
+        display: block;
+        color: #3CA1D2;
+        float: left;
+        text-decoration: none;
+        padding: 10px 16px;
+        font-size: 1.5em;
+    }
+
+    a.menu-link:hover { color: #3CA1D2; }
+
+    a.menu-link:after {
+        content: "\2630";
+        font-weight: normal;
+    }
+
+    a.menu-link.active:after { content: "\2715"; }
+
+    .menu {
+        clear: both;
+        min-width: inherit;
+        float: none;
+    }
+
+    .menu,
+    .menu > ul ul {
+        overflow: hidden;
+        max-height: 0;
+        background-color: #39484d;
+    }
+
+    .menu > li > ul.sub-menu {
+        padding: 0px;
+        border: none;
+    }
+
+    .menu.active,
+    .menu > ul ul.active { max-height: 55em; }
+
+    .menu ul { display: inline; }
+
+    .menu li,
+    .menu > ul > li { display: block; }
+
+    .menu > ul > li:last-of-type a { border: none; }
+
+    .menu li a {
+        color: #3CA1D2;
+        display: block;
+        padding: 0.8em;
+        position: relative;
+    }
+
+    .menu li.has-submenu > a:after {
+        content: '+';
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: block;
+        font-size: 1.5em;
+        padding: 0.55em 0.5em;
+    }
+
+    .menu li.has-submenu > a.active:after { content: "-"; }
+
+    .menu ul ul > li a {
+        background-color: #39484d;
+        padding: 10px 18px 10px 30px;
+    }
+
+
+
+    .menu ul li.hover > a {
+        background: #3CA1D2;
+        color: white;
+    }
+
+    .menu ul ul,
+    .menu ul ul ul {
+        display: inherit;
+        position: relative;
+        left: auto;
+        top: auto;
+        border: none;
+    }
+
+}
