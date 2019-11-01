@@ -9,6 +9,10 @@
     transition: all 0.3s ease;
 }
 
+.spinner-master:hover{
+
+}
+
 .menu ul {
     padding: 0;
     margin: 0;
@@ -31,8 +35,8 @@
 .menu ul li a {
     display: block;
     text-decoration: none;
-    color: #3CA1D2;
-    font-size: 14px;
+    color: white;
+    font-size: 25px;
 }
 
 .menu ul li a:hover {
@@ -76,12 +80,16 @@
     top: 0;
 }
 
-@media all and (min-width: 768px) {
+@media all and (min-width: 768pt) {
     .nav_wrapper{
      display: none;
     }
 }
-@media all and (max-width: 769px) {
+@media all and (max-width: 769pt) {
+
+    .menu ul li a {
+        font-size:xx-large;
+    }
 
     .spinner-master * {
         transition: all 0.3s;
@@ -90,9 +98,9 @@
 
     .spinner-master {
         position: relative;
-        margin: 15px;
-        height: 30px;
-        width: 30px;
+        margin: 20px;
+        height: 100px;
+        width: 70px;
         float: left;
     }
 
@@ -108,10 +116,10 @@
 
     .spinner-master .spinner {
         position: absolute;
-        height: 4px;
+        height: 8px;
         width: 100%;
         padding: 0;
-        background-color: rgb(193,0,4);
+        background-color: #004d00;
     }
 
     .spinner-master .diagonal.part-1 {
@@ -122,13 +130,13 @@
     .spinner-master .horizontal {
         position: relative;
         float: left;
-        margin-top: 4px;
+        margin-top: 8px;
     }
 
     .spinner-master .diagonal.part-2 {
         position: relative;
         float: left;
-        margin-top: 4px;
+        margin-top: 8px;
     }
 
     .spinner-master input[type=checkbox]:checked ~ .spinner-spin > .horizontal { opacity: 0; }
@@ -142,7 +150,7 @@
     .spinner-master input[type=checkbox]:checked ~ .spinner-spin > .diagonal.part-2 {
         transform: rotate(-135deg);
         -webkit-transform: rotate(-135deg);
-        margin-top: -12px;
+        margin-top: -24px;
     }
 
     a.menu-link {

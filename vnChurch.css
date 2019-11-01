@@ -112,10 +112,7 @@ nav{
 
 }
 /*-------Logo---------*/
-#logo-pic{
 
-
-}
 #logo-pic {
     padding: 10px 20px;
     text-align: center;
@@ -624,15 +621,15 @@ legend{
 
 /***************Media Query*****************/
 /* Mobile Styles */
-@media only screen and (max-width: 768px )  {
+@media only screen and (max-width: 768pt )  {
 
     .wallpaper{
         height: 250px;
         position: relative;
     }
     #logo-pic {
-        width: 60px;
-        height: 52px;
+        width: 100px;
+        height: 100px;
         padding: 5px 10px;
         margin: 2px 1px;
     }
@@ -659,6 +656,7 @@ legend{
     }
 
 
+
 }
 
 /* Tablet Styles */
@@ -666,6 +664,12 @@ legend{
     .wallpaper{
         height: 500px;
         position: relative;
+    }
+    #logo-pic {
+        width: 120px;
+        height: 100px;
+        padding: 15px 30px;
+        margin: 6px 3px;
     }
 
 }
