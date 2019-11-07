@@ -3,7 +3,7 @@ h4{
     color: #3CA1D2;
 }
 address{
-    font-size: medium;
+    font-size: x-small;
     text-align: center;
 }
 h2{
@@ -354,8 +354,12 @@ nav{
 }
 
 .visit_us{
-
     padding-left: 2%;
+    font-size: xx-small;
+}
+
+.visit_us address{
+    font-size: medium;
 }
 
 /* Wrapper */
@@ -391,6 +395,11 @@ nav{
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 10%;
+
+}
+
+#footer-bottom p{
+    font-size: x-small;
 }
 
 .main-footer address,p,h2{
