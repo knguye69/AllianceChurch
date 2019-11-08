@@ -101,7 +101,8 @@
         margin: 20px;
         height: 100px;
         width: 70px;
-        float: left;
+        float: right;
+
     }
 
     .spinner-master label {
@@ -119,7 +120,7 @@
         height: 8px;
         width: 100%;
         padding: 0;
-        background-color: #2f3b3f;
+        background-color: honeydew;
     }
 
     .spinner-master .diagonal.part-1 {
