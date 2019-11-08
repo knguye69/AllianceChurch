@@ -6,12 +6,9 @@
     width: 100%;
     height: auto;
     background: #2f3b3f;
-    transition: all 0.3s ease;
+    transition: all 0.5s ease;
 }
 
-.spinner-master:hover{
-
-}
 
 .menu ul {
     padding: 0;
@@ -92,7 +89,7 @@
     }
 
     .spinner-master * {
-        transition: all 0.3s;
+        transition: all .5s;
         box-sizing: border-box;
     }
 
@@ -214,7 +211,7 @@
         right: 0;
         display: block;
         font-size: 1.5em;
-        padding: 0.55em 0.5em;
+
     }
 
     .menu li.has-submenu > a.active:after { content: "-"; }
@@ -243,5 +240,7 @@
         top: auto;
         border: none;
     }
+
+
 
 }
