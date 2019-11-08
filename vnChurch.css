@@ -26,7 +26,10 @@ p{
     text-align: center;
 }
 
-
+/* Sunday-school-group */
+#sunday-school-group p{
+    text-align: left;
+}
 
 
 /* Navigation bar */
