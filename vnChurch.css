@@ -282,6 +282,26 @@ nav{
     margin-left: auto;
     margin-right: auto;
 }
+#then{
+    text-align: left;
+    margin-left: 25%;
+}
+
+#now{
+    float: right;
+    margin-right: 25%;
+}
+#now,#then{
+    display: inline-block;
+    color: #003eff;
+    background-color: 	#7FFFD4;
+    border: none;
+    padding: 4px 8px;
+    opacity: 0.6;
+    transition: 0.3s;
+    text-decoration: none;
+    border-radius: 4px;
+}
 
 
 
@@ -677,6 +697,10 @@ legend{
         display: none;
     }
 
+    #then,#now{
+        font-size: 7px;
+    }
+
 
 
 }
@@ -692,6 +716,9 @@ legend{
         height: 100px;
         padding: 15px 30px;
         margin: 6px 3px;
+    }
+    #then,#now{
+        font-size: 12px;
     }
 
 }
@@ -733,6 +760,10 @@ legend{
     .our-mission p{
         font-size: medium;
 
+    }
+
+    #then,#now{
+        font-size: 16px;
     }
 
 
