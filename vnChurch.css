@@ -31,6 +31,25 @@ p{
     text-align: left;
 }
 
+/* For new image in home page*/
+.flex-images {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F9FBF3;
+}
+
+.flex-images > div {
+    background-color: #f1f1f1;
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+.new-wrapper{
+    padding: 5% 10% 5% 10%;
+}
+
 
 /* Navigation bar */
 /*************Drop down nav***************/
@@ -289,12 +308,12 @@ nav{
 }
 #then{
     text-align: left;
-    margin-left: 25%;
+    margin-left: 5%;
 }
 
 #now{
     float: right;
-    margin-right: 25%;
+    margin-right: 5%;
 }
 #now,#then{
     display: inline-block;
@@ -706,6 +725,9 @@ legend{
         font-size: 7px;
     }
 
+    .flex-images > div {
+        width: 100px;
+    }
 
 
 }
@@ -724,6 +746,9 @@ legend{
     }
     #then,#now{
         font-size: 12px;
+    }
+    .flex-images > div {
+        width: 150px;
     }
 
 }
