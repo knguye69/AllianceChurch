@@ -3,8 +3,8 @@ h4{
     color: #3CA1D2;
 }
 address{
-    font-size: x-small;
-    text-align: center;
+    font-size: large;
+
 }
 h2{
     color: #3CA1D2;
@@ -728,7 +728,10 @@ legend{
     .flex-images > div {
         width: 100px;
     }
+    address{
+        font-size: medium;
 
+    }
 
 }
 
@@ -749,6 +752,10 @@ legend{
     }
     .flex-images > div {
         width: 150px;
+    }
+    address{
+        font-size: large;
+
     }
 
 }

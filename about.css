@@ -13,3 +13,57 @@ i:hover, i:focus{
     display: block;
 
 }
+
+
+/*Code for the member list*/
+.column {
+
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.teamContainer {
+    padding: 0 16px;
+    max-width: 300px;
+}
+
+.teamContainer::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.teamTitle {
+    color: grey;
+    padding: .5%;
+}
+.teamName{
+    color: #004D34;
+    text-align: center;
+}
+
+#member html {
+    box-sizing: border-box;
+}
+@media screen and (max-width: 650pt) {
+    .column {
+        width: 50%;
+        display: block;
+    }
+}
+@media screen and (min-width: 651pt) and (max-width: 1000pt ) {
+    .column {
+        width: 33.3%;
+        display: block;
+    }
+}
+@media screen and (min-width: 1001pt){
+    .column{
+        width: 16.6%;
+        display: block;
+    }
+}
+

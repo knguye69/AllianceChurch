@@ -1,0 +1,51 @@
+{"teammembers":[
+  {
+    "full_name": "Nhut Nguyen",
+    "first_name": "Nhut",
+    "image": "images/Gallery/members/nhutNguyen.png",
+    "title": "Pastor",
+    "bio": "Will be updated",
+    "tag_line": "Will be updated"
+  },
+  {
+    "full_name": "Nhan Nhu",
+    "first_name": "Nhan",
+    "image": "images/Gallery/members/nhanNhu.png",
+    "title": "Pastor",
+    "bio": "Will be updated",
+    "tag_line": "Will be updated"
+  },
+  {
+    "full_name": "Trung Tin Tran",
+    "first_name": "Tin",
+    "image": "images/Gallery/members/quangTran.png",
+    "title": "Secretary",
+    "bio": "Will be updated",
+    "tag_line": "Will be updated"
+  },
+  {
+    "full_name": "Nuong Nguyen",
+    "first_name": "Nuong",
+    "image": "images/Gallery/members/nuongNguyen.png",
+    "title": "Vice Secretary",
+    "bio": "Will be updated",
+    "tag_line": "Will be updated"
+  },
+  {
+    "full_name": "Mai Nguyen",
+    "first_name": "Mai",
+    "image": "images/Gallery/members/maiNguyen.png",
+    "title": "Treasurer",
+    "bio": "Will be updated",
+    "tag_line": "Will be updated"
+  },
+  {
+    "full_name": "Cammy Berg",
+    "first_name": "Cammy",
+    "image": "images/Gallery/members/cammyBerg.png",
+    "title": "Treasurer",
+    "bio": "Will be updated",
+    "tag_line": "Will be updated"
+  }
+
+]}
