@@ -35,14 +35,17 @@ i:hover, i:focus{
     clear: both;
     display: table;
 }
-
-.teamTitle {
+.memberTitle {
     color: grey;
     padding: .5%;
 }
-.teamName{
+.memberName{
     color: #004D34;
+
+}
+.teamTitle{
     text-align: center;
+    font-size: xx-large;
 }
 
 #member html {
@@ -53,11 +56,19 @@ i:hover, i:focus{
         width: 50%;
         display: block;
     }
+    .teamTitle{
+
+        font-size: large;
+    }
 }
 @media screen and (min-width: 651pt) and (max-width: 1000pt ) {
     .column {
         width: 33.3%;
         display: block;
+    }
+    .teamTitle{
+
+        font-size: x-large;
     }
 }
 @media screen and (min-width: 1001pt){

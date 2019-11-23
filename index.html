@@ -22,9 +22,12 @@
     <script src="twentyPlugin/jquery.twentytwenty.js"></script>
     <script src="twentyPlugin/jquery.event.move.js"></script> <!--Support mobile-->
 
-<!--Picture for news-->
 
 
+<!--For lightbox plugin-->
+    <script src="lightbox2-2.11.1/src/js/lightbox.js"></script>
+
+    <link rel="stylesheet" href="lightbox2-2.11.1/src/css/lightbox.css">
 
 
 
@@ -138,6 +141,7 @@
             <!-- end second nav-->
 
         </div><!--End wallpaper and navigation bar-->
+
         <div class="page-content">
             <!--Quote-->
             <div class="god-quote">
@@ -145,62 +149,30 @@
                 <p>"For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life"</p>
             </div>
         </div>
+
         <div class="new-wrapper">
             <h4>Some pictures in Father's day 2019</h4>
-            <div class="flex-images">
-
-                <div><a href="images/Gallery/Father's_Day/father_day1.jpg"><img src="images/Gallery/Father's_Day/father_day1%20copy.jpg" alt="father's day picture"></a></div>
-                <div><a href="images/Gallery/Father's_Day/father_day2.jpg"><img src="images/Gallery/Father's_Day/father_day2%20copy.jpg" alt="father's day picture"></a></div>
-                <div><a href="images/Gallery/Father's_Day/father_day3.jpg"><img src="images/Gallery/Father's_Day/father_day3%20copy.jpg" alt="father's day picture"></a></div>
-                <div><a href="images/Gallery/Father's_Day/father_day4.jpg"><img src="images/Gallery/Father's_Day/father_day4%20copy.jpg" alt="father's day picture"></a></div>
-                <div><a href="images/Gallery/Father's_Day/father_day5.jpg"><img src="images/Gallery/Father's_Day/father_day5%20copy.jpg" alt="father's day picture"></a></div>
-                <div><a href="images/Gallery/Father's_Day/father_day6.jpg"><img src="images/Gallery/Father's_Day/father_day6%20copy.jpg" alt="father's day picture"></a></div>
-                <div><a href="images/Gallery/Father's_Day/father_day7.jpg"><img src="images/Gallery/Father's_Day/father_day7%20copy.jpg" alt="father's day picture"></a></div>
+            <div class="flex-images photo">
+                <div id="flickPhoto1"></div>
             </div>
         </div>
 
         <div class="new-wrapper">
             <h4>Some pictures in Mother's day 2019</h4>
-            <div class="flex-images">
-
-                <div><a href="images/Gallery/mother's_day/mother-day1.jpg"><img src="images/Gallery/mother's_day/mother-day1%20copy.jpg" alt="mother's day picture"></a></div>
-                <div><a href="images/Gallery/mother's_day/mother-day2.jpg"><img src="images/Gallery/mother's_day/mother-day2%20copy.jpg" alt="mother's day picture"></a></div>
-                <div><a href="images/Gallery/mother's_day/mother-day3.jpg"><img src="images/Gallery/mother's_day/mother-day3%20copy.jpg" alt="mother's day picture"></a></div>
-                <div><a href="images/Gallery/mother's_day/mother-day4.jpg"><img src="images/Gallery/mother's_day/mother-day4%20copy.jpg" alt="mother's day picture"></a></div>
-                <div><a href="images/Gallery/mother's_day/mother-day6.jpg"><img src="images/Gallery/mother's_day/mother-day6%20copy.jpg" alt="mother's day picture"></a></div>
-                <div><a href="images/Gallery/mother's_day/mother-day7.jpg"><img src="images/Gallery/mother's_day/mother-day7%20copy.jpg" alt="mother's day picture"></a></div>
+            <div class="flex-images photo">
+                <div id="flickPhoto2"></div>
             </div>
         </div>
 
         <div class="new-wrapper">
             <h4>Some pictures in Passion 2019</h4>
-            <div class="flex-images">
-
-                <div><a href="images/Gallery/thuong_kho/t_k1.jpg"><img src="images/Gallery/thuong_kho/t_k1%20copy.jpg" alt="passion picture"></a></div>
-                <div><a href="images/Gallery/thuong_kho/t_k2.jpg"><img src="images/Gallery/thuong_kho/t_k2%20copy.jpg" alt="passion picture"></a></div>
-                <div><a href="images/Gallery/thuong_kho/t_k3.jpg"><img src="images/Gallery/thuong_kho/t_k3%20copy.jpg" alt="passion picture"></a></div>
-                <div><a href="images/Gallery/thuong_kho/t_k4.jpg"><img src="images/Gallery/thuong_kho/t_k4%20copy.jpg"  alt="passion picture"></a></div>
-                <div><a href="images/Gallery/thuong_kho/t_k5.jpg"><img src="images/Gallery/thuong_kho/t_k5%20copy.jpg"  alt="passion picture"></a></div>
-                <div><a href="images/Gallery/thuong_kho/t_k6.jpg"><img src="images/Gallery/thuong_kho/t_k6%20copy.jpg"  alt="passion picture"></a></div>
-                <div><a href="images/Gallery/thuong_kho/t_k7.jpg"><img src="images/Gallery/thuong_kho/t_k7%20copy.jpg"  alt="passion picture"></a></div>
-                <div><a href="images/Gallery/thuong_kho/t_k8.jpg"><img src="images/Gallery/thuong_kho/t_k8%20copy.jpg"  alt="passion picture"></a></div>
-                <div><a href="images/Gallery/thuong_kho/t_k9.jpg"><img src="images/Gallery/thuong_kho/t_k9%20copy.jpg"  alt="passion picture"></a></div>
-                <div><a href="images/Gallery/thuong_kho/t_k10.jpg"><img src="images/Gallery/thuong_kho/t_k10%20copy.jpg"  alt="passion picture"></a></div>
-                <div><a href="images/Gallery/thuong_kho/t_k11.jpg"><img src="images/Gallery/thuong_kho/t_k11%20copy.jpg"  alt="passion picture"></a></div>
-                <div><a href="images/Gallery/thuong_kho/t_k12.jpg"><img src="images/Gallery/thuong_kho/t_k12%20copy.jpg"  alt="passion picture"></a></div>
-
+            <div class="flex-images photo">
+                <div id="flickPhoto3"></div>
             </div>
         </div>
 
 
 
-
-    <!-- First before-now
-        <div class="before-now">
-            <img src="images/old-church.jpg" alt="old-church">
-            <img src="images/cover-small.JPG" alt="new-church">
-        </div>
-        -->
 
 
         <!--Second before now-->

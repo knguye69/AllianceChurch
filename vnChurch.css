@@ -31,6 +31,17 @@ p{
     text-align: left;
 }
 
+
+/*Flickr style */
+.photo{
+    margin: 50px;
+
+}
+.eachPhoto{
+    padding: 10px;
+    width:200px;
+    height: 200px;
+}
 /* For new image in home page*/
 .flex-images {
     display: flex;
@@ -40,14 +51,14 @@ p{
 
 .flex-images > div {
     background-color: #f1f1f1;
-    width: 300px;
+    width: 100%;
     margin: 10px;
     text-align: center;
     line-height: 75px;
     font-size: 30px;
 }
 .new-wrapper{
-    padding: 5% 10% 5% 10%;
+    padding: 2% 5% 2% 5%;
 }
 
 
@@ -687,7 +698,29 @@ legend{
 
 /***************Media Query*****************/
 /* Mobile Styles */
-@media only screen and (max-width: 768pt )  {
+@media only screen and (max-width: 500pt ){
+    .photo{
+        margin: 10px;
+
+    }
+    .eachPhoto{
+        padding: 5px;
+        width:100px;
+        height: 100px;
+    }
+    .nav{
+        display: none;
+    }
+    /*Disable button on wallpaper*/
+    .button-text{
+        display: none;
+    }
+
+    #then,#now{
+        font-size: 7px;
+    }
+}
+@media only screen and (min-width: 501pt) and (max-width: 768pt )  {
 
     .wallpaper{
         height: 250px;
@@ -712,7 +745,7 @@ legend{
         font-size: large;
     }
 
-    /*Test for scroll down menu*/
+
     .nav{
         display: none;
     }
@@ -726,11 +759,22 @@ legend{
     }
 
     .flex-images > div {
-        width: 100px;
+        width: 100%;
     }
     address{
         font-size: medium;
 
+    }
+
+
+    .photo{
+        margin: 15px;
+
+    }
+    .eachPhoto{
+        padding: 7px;
+        width:140px;
+        height: 140px;
     }
 
 }
@@ -751,11 +795,20 @@ legend{
         font-size: 12px;
     }
     .flex-images > div {
-        width: 150px;
+        width: 100%;
     }
     address{
         font-size: large;
 
+    }
+    .photo{
+        margin: 15px;
+
+    }
+    .eachPhoto{
+        padding: 7px;
+        width:170px;
+        height: 170px;
     }
 
 }

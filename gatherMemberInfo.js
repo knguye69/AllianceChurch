@@ -9,10 +9,13 @@ $(document).ready(function(){
                         "<img src='"+ value.image+"'>"  +
 
                         "<div class='teamContainer'" +
-                        "<h3 class='teamName'>" + value.full_name + "</h3>" +
 
-                        "<h3 class='teamTitle'>" + value.title + "</h3>" +
-                        //"<p>"+ value.tag_line + "</p>" +
+
+
+                        "<h3></h3>" +
+                        "<h3 class='memberName'>" + value.fulName + "<br><br>"  + "</h3>" +
+                        "<h3 class='memberTitle'>" +  value.title +  "</h3>" +
+
                         "</div>" +
                         "</div>" +
                         "</div>"
